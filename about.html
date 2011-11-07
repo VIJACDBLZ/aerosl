@@ -1,0 +1,160 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Aerosl | About Us</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="presentation/styles.css" />
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<!-- Cufon Scripts -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Helvetica_LT_Std_300.font.js"></script>
+	<script type="text/javascript">		
+			Cufon.replace('h2');
+			Cufon.replace('h3');
+			Cufon.replace('h4');
+			Cufon.replace('#contentFooter a');
+			Cufon.replace('#mainNav li a');
+	</script>
+
+	<!-- jQuery Dropdown Menu -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#languages a').toggle(function () {
+				$('#languages a').css('background-image', 'url("presentation/images/button_arrow_up.jpg")');},
+				function () { $('#languages a').css('background-image', 'url("presentation/images/button_arrow.jpg")');}
+			);
+			$('#languages a').click(function () {
+				$('ul.dropdown').slideToggle('medium');
+			});
+			$('.dropdown li a').click(function () {
+				$('#languages p').html($(this).text()).removeClass().addClass($(this).attr('class'));
+				$('ul.dropdown').slideToggle('medium');
+			});
+		});
+	</script>
+	<!-- DD_belatedPNG fix -->
+	<!--[if IE 6]>
+		<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>
+  			DD_belatedPNG.fix('h1 a');
+			DD_belatedPNG.fix('#contentWrapper');
+			DD_belatedPNG.fix('li');
+		</script>
+	<![endif]--> 
+</head>
+
+<body>
+	<!-- BEGIN: wrapper -->
+	<div id="wrapper">
+		<!-- BEGIN: infoColumn -->
+		<div id="infoColumn">
+			<img src="images/logo.png" alt="Aerosl" class="logo" />
+			<!-- BEGIN: languages -->
+			<div id="languages">
+			<p>Where we Operate</p>
+				<a href="">Where we operate</a>
+			</div>
+			<ul class="dropdown">
+				<li><a title="Language"class="India">India</a></li>
+				<li><a title="Language" class="usa">Indonesia</a></li>
+				<li><a title="Language" class="spain">China</a></li>
+				<li><a title="Language" class="france">Taiwan</a></li>
+				<li><a title="Language" class="france">Brunei</a></li>
+				<li><a title="Language" class="france">USA</a></li>
+				<li><a title="Language" class="usa">Singapore</a></li>
+				<li><a title="Language" class="spain">Thailand</a></li>
+				<li><a title="Language" class="france">Malaysia</a></li>
+			</ul>
+			<!-- END: languages -->
+			<h3>Office Location</h3>
+			<img src="images/map.jpg" alt="Image" />
+			<h6>Singapore Office:</h6>
+			<ul>
+				<li>21, Bukit Batok Crescent,</li>
+				<li>#15-79G, WCEGA Tower,</li>
+				<li>Singapore: 658065</li>
+				<li><br /></li>
+				<li>Tel: +(65) 6659 7900</li>
+				<li>Fax: +(65) 6659 7944</li>
+				<li><br /></li>
+				<li>Email:<a href="mailto:sales@aerosl.com">sales@aerosl.com</a></li>
+			</ul>
+			<a href="contact.html" title="Spot Us" class="button">Spot Us</a>
+		</div>
+		<!-- END: infoColumn -->
+		
+		<!-- BEGIN: content -->
+		<div id="content">
+			<!-- BEGIN: contentWrapper -->
+			<div id="contentWrapper">
+				<!-- BEGIN: slideshow -->
+				<div id="slideshow">
+					<object type="application/x-shockwave-flash" data="slideshow/slideshow.swf" width="771" height="240">
+						<param name="movie" value="slideshow/slideshow.swf" />
+					</object>
+				</div>
+				<!-- END: slideshow -->
+				<!-- BEGIN: mainNav -->
+				<ul id="mainNav">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li class="active"><a href="about.html" title="About Us">About Us</a></li>
+					<li><a href="service.html" title="Our Services">Services</a></li>
+					<li><a href="quote.html" title="Send us Your Quote">Request a Quote</a></li>
+					<li><a href="track.html" title="Shipment Tracking">Shipment Tracking</a></li>
+					<li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+				</ul>
+				<!-- END: mainNav -->
+				<!-- BEGIN: searchForm -->
+				
+				<!-- END: searchForm -->
+				<!-- BEGIN: mainContent -->
+				<div id="mainContent">
+					<h2>About Us</h2>
+					<p>Aero Shipping Lines Pte Ltd provides shipping, sea and air freight services, container movements, land transport services to general and OIL & GAS industries in Singapore, Malaysia, India, Vietnam, Indonesia, UAE and Thailand for the past few years with our own expertise. We can provide a complete range of logistics and shipping services to our local and international companies in all sectors.</p> 
+					<p>We do care for traders who need for entire logistics functions, so that our experience can help you to forget about logistics. We also care for safer shipment across global regions with seamless partners. </p> 
+					<p>We have wide range of containers stationed mainly at Singapore which can help on speedy shipment. We can also provide containers mainly at India, UAE, Malaysia,Thailand, China, Bangladesh, Pakistan, Sri lanka and other part of the worlds. </p>
+					<p> We also have our own transport which can help on road transport from Singapore, Malaysia, Thailand and vice versa.</p>
+					<p>We also have expertise in handling LCL, FCL, break bulk and containers handling.</p>
+					<h4>Latest Release</h4>
+					<img src="images/img_1.jpg" alt="Image" class="left" />
+					<h5>Project name place here</h5>
+					<p>The company infuses the power of creativity converging with high-end technology to optimize business value.   <a href="#" title="Link">[... Read More]</a></p>
+				</div>
+				<!-- END: mainContent -->
+				<!-- BEGIN: sidebar -->
+				<div id="sidebar">
+					<h3>News &amp Events</h3>
+					<!-- <img src="images/img_2.jpg" alt="Image" /> -->
+					<p>Successfully completed IT logistics services for German based MNC from Singapore to Hong Kong</p>
+					<p>Enter into MOU between major logistics provider in India for better network and faster service and Successfully completed corporate logistics for expatriates moved from Singapore to Brunei </p>
+					<a href="#" title="Find Out More" class="button">Find Out More</a>
+					<h3>Testimonial</h3>
+					<p>We are very happy to have AEROSL as our partner in IT logistics service as they have committed and shown very good SLA in our recent projects</p>
+					<p>Unknown</p>
+				</div>
+				<!-- END: sidebar -->
+				<!-- BEGIN: contentFooter -->
+				<div id="contentFooter">
+					<a href="mission.html">Our Mission</a> | <a href="news.html">News &amp;Events </a>| <a href="terms.html">Terms &amp;Conditions</a>
+					<ul>
+						<li><a href="#" title="Follow Us" class="button">Follow Us</a></li>
+						<li><a href="#" title="RSS" class="rss">RSS</a></li>
+					</ul>
+				</div>
+				<!-- END: contentFooter -->
+			</div>
+			<!-- END: contentWrapper -->
+		</div>
+		<!-- END: content -->
+	</div>
+	<!-- END: wrapper -->
+	<!-- BEGIN: footer -->
+		<div id="footer">
+			<div>
+								<p>&copy; Aero Shipping Lines Pte.&nbsp; Ltd</p>
+
+			</div>
+		</div>
+		<!-- END: footer -->
+</body>
+</html>

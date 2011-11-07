@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<settings imageWidth="771" imageHeight="240" showTime="5" tweenTime="1"/>
+<items>
+	<item imgURL="slideshow/Images/01.jpg" linkURL="" ID="05" />	
+	<item imgURL="slideshow/Images/02.jpg" linkURL="" ID="06" />
+	<item imgURL="slideshow/Images/03.jpg" linkURL="" ID="03" />
+	<item imgURL="slideshow/Images/04.jpg" linkURL="" ID="04" />
+</items>

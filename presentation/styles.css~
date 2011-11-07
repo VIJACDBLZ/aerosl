@@ -1,0 +1,734 @@
+/* ========================== CSS Reset ========================== */
+* {
+	border: 0 none;	
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	font-style: inherit;
+	font-weight: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+
+/* ========================== General Styles ========================== */
+body {
+	background: #FFF url("images/bg_body.jpg") repeat-x top left;
+	text-align: center;
+}
+
+#wrapper {
+	margin: 0 auto;
+	overflow: hidden;
+	text-align: left;
+	width: 1000px;
+}
+
+a {
+	color: #3f454f; 
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+}
+
+h1, h2, h3, h4, h5 {
+	margin-bottom: 20px;
+}
+
+h2 {
+	color: #415e7e;
+	font-size: 21px;
+}
+
+h3 {
+	color: #585858;
+	font-size: 16px;
+}
+
+h4 {
+	color: #3f454f;
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+h5 {
+	color: #3f454f;
+	font-size: 13px;
+	margin-bottom: 12px;
+}
+
+h6 {
+	color: #415e7e;
+	font-size: 12px;
+}
+
+iframe {
+	margin-bottom: 15px;
+}
+
+img {
+	margin-bottom: 15px;
+}
+
+img.left {
+	float: left;
+	margin-right: 15px;
+}
+
+img.right {
+	float: right;
+	margin-left: 15px;
+}
+
+ol {
+	list-style-type: none;
+}
+
+ol li {
+	border-bottom: 1px solid #e7e7e7;
+	margin: 0;
+	padding: 8px 0 8px 30px;
+}
+
+ol li.first {
+	background: #FFF url("images/ol_1.png") no-repeat 3% 50%;
+}
+
+ol li.second {
+	background: #FFF url("images/ol_2.png") no-repeat 3% 50%;
+}
+
+ol li.third {
+	background: #FFF url("images/ol_3.png") no-repeat 3% 50%;
+}
+
+ol li.fourth {
+	background: #FFF url("images/ol_4.png") no-repeat 3% 50%;
+}
+
+ol li:hover {
+	background-color: #e6f0fb;
+}
+
+p, li {
+	color: #898989;
+	font-size: 12px;
+	line-height: 18px;
+	margin-bottom: 15px;
+}
+
+ul {
+	list-style-position: inside;
+	list-style-type: disc;
+}
+
+.button {
+	background: url("images/button.jpg") no-repeat top left;
+	color: #e9e9e9;
+	display: block;
+	font-size: 11px;
+	height: 21px;
+	line-height: 19px;
+	margin-bottom: 20px;
+	padding-left: 8px;
+	width: 89px;
+}
+
+.button:hover {
+	background-position: bottom left;
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
+
+/* ========================== Form Elements Styles ========================== */
+select {
+	background-color: #f3f7fb;
+	border: 1px solid #bbbfc2;
+	color: #898c8d;
+	font-size: 11px;	
+	font-weight: bold;
+	padding: 2px;
+}
+
+.contact input, .contact textarea {
+	background-color: #d8e6f7;
+	border: 1px solid #c4cbd4;
+	font-size: 11px;
+	margin-top: 5px;
+	padding: 4px;
+	width: 225px;
+}
+
+.contact p {
+	margin-bottom: 10px;
+}
+
+.contact #submit {
+	background-color: #555e67;
+	border: none;
+	color: #e9e9e9;
+	font-size: 11px;
+	padding: 3px;
+	padding-right: 8px;
+	text-align: left;
+	width: auto;
+}
+
+/* ==========================QUOTATION Form Elements Styles ========================== */
+
+select {
+	background-color: #f3f7fb;
+	border: 1px solid #bbbfc2;
+	color: #898c8d;
+	font-size: 11px;	
+	font-weight: bold;
+	padding: 2px;
+}
+
+.quote input, .quote textarea {
+	background-color: #d8e6f7;
+	border: 1px solid #c4cbd4;
+	font-size: 11px;
+	margin-top: 5px;
+	padding: 4px;
+	width: 225px;
+}
+
+.quote p {
+	margin-bottom: 10px;
+}
+
+.quote #submit {
+	background-color: #555e67;
+	border: none;
+	color: #e9e9e9;
+	font-size: 11px;
+	padding: 3px;
+	padding-right: 8px;
+	text-align: left;
+	width: auto;
+}
+
+table {
+	font:  Verdana, Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	color: #898989;
+	
+	}
+
+/* ========================== Info Column Styles ========================== */
+#infoColumn {
+	background: url("images/bg_infoColumn.jpg") no-repeat top left;
+	float: left;
+	padding: 0 24px 45px 34px;
+	position: relative;
+	width: 161px;
+}
+
+#infoColumn h1 {
+	margin-top: 104px;
+	text-indent: -9999px;
+}
+
+#infoColumn h1 a {
+	background: url("images/logo.png") no-repeat top left;
+	display: block;
+	height: 46px;
+	width: 113px;
+}
+
+#infoColumn #languages {
+	height: 28px;
+	margin: 103px 0 33px 0;
+	overflow: hidden;
+	padding-top: 12px;
+	width: 161px;
+}
+
+#infoColumn #languages a {
+	background: url("images/button_arrow.jpg") no-repeat top left;
+	display: block;
+	float: left;
+	height: 21px;
+	text-indent: -9999px;
+	width: 21px;
+}
+
+#infoColumn #languages p {
+	color: #3f454f;
+	float: right;
+	font-size: 11px;
+	padding-right: 28px;
+}
+
+#infoColumn ul, .location {
+	list-style: none;
+	list-style-position: outside;
+	margin-bottom: 20px;
+}
+
+#infoColumn ul li, .location li {
+	color: #898c8d;
+	font-size: 11px;
+	line-height: 15px;
+	margin-bottom: 0;
+}
+
+/* ========================== DropDown Menu Styles ========================== */
+.dropdown {
+	background-color: #eef1f0;
+	border-top: 1px solid #FFF;
+	display: none;
+	left: 10px;
+	position: absolute;
+	top: 293px;
+	z-index: 100;
+}
+
+.dropdown li {
+	
+	border-bottom: 1px solid #FFF;
+	padding-right: 24px;
+	width: 185px;
+}
+
+.dropdown li a {
+	color: #3f454f;
+	display: block;
+	font-size: 11px;
+	height: 39px;
+	line-height: 39px;
+	padding-right: 28px;
+	text-align: right;
+} 
+	
+.dropdown li:hover {
+	background-color: #d7dcda;
+}
+
+.dropdown li a:hover {
+	text-decoration: none;
+}
+
+.england {
+	background: url("images/flag_england.jpg") no-repeat 100% 50%;
+}
+
+.usa {
+	background: url("images/flag_usa.jpg") no-repeat 100% 50%;
+}
+
+.spain {
+	background: url("images/flag_spain.jpg") no-repeat 100% 50%;
+}
+
+.france {
+	background: url("images/flag_france.jpg") no-repeat 100% 50%;
+}
+
+/* ========================== Content Styles ========================== */
+#content {
+	background: url("images/bg_content.jpg") no-repeat top left;
+	float: left;
+	padding-top: 8px;
+	width: 781px;
+}
+
+#content #slideshow {
+	height: 240px;
+	margin: 0 -23px;
+	overflow: hidden;
+}
+
+#contentWrapper {
+	background: url("images/bg_contentWrapper.png") no-repeat bottom right;
+	padding: 0 33px 0 23px;
+	z-index: 10;
+}
+
+/* ========================== Main Navigation Styles ========================== */
+#mainNav {
+	float: left;
+	height: 29px;
+	list-style: none;
+	list-style-position: outside;
+	margin-top: 10px;
+}
+
+#mainNav li {
+	background: url("images/bg_mainNav.jpg") no-repeat bottom right;
+	float: left;
+	height: 29px;
+	margin: 0;
+	padding: 0 14px 0 12px;
+}
+
+#mainNav li a {
+	color: #d1d6de;
+	font-size: 11px;
+	line-height: 27px;
+	text-transform: uppercase;
+}
+
+#mainNav li.active {
+	background-color: #FFF;
+}
+
+#mainNav li.active a, #mainNav li.active a:hover {
+	color: #353434;
+}
+
+#mainNav li a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+/* ========================== Search Form Styles ========================== */
+.searchForm {
+	float: right;
+	margin-top: 8px;
+}
+
+.searchForm div {
+	float: left;
+}
+
+.searchForm input {
+	background-color: #d8e6f7;
+	border: 1px solid #687891;
+	color: #46596e;
+	font-size: 11px;
+	padding: 3px 8px;
+}
+
+.searchForm input.submit {
+	background: url("images/submit_search.jpg") no-repeat top left;
+	border: none;
+	display: block;
+	height: 21px;
+	margin: 2px 0 0 10px;
+	padding: 0;
+	width: 41px;
+}
+
+/* ========================== Main Content Styles ========================== */
+#mainContent {
+	clear: left;
+	float: left;
+	margin-right: 20px;
+	padding: 35px 0;
+	width: 470px;
+}
+
+/* ========================== Full Width Content Styles ========================== */
+#full_width_content {
+	clear: both;
+	overflow: hidden;
+	padding: 35px 0 25px 0;
+	position: relative;
+	width: 725px;
+}
+
+/* ========================== Sidebar Styles ========================== */
+#sidebar {
+	float: right;
+	padding: 35px 0;
+	width: 235px;
+}
+
+#sidebar p, #sidebar li, #sidebar a {
+	font-size: 11px;
+	line-height: 16px;
+}
+
+#sidebar h3 {
+	margin-bottom: 12px;
+}
+
+#sidebar .button {
+	line-height: 19px;
+}
+
+#sidebar h5 {
+	font-size: 11px;
+	font-weight: bold;
+}
+
+/* ========================== Sort Div Styles ========================== */
+#sort {
+	overflow: hidden;
+	width: 725px;
+}
+
+#sort select, #sort p {
+	float: right;
+}
+
+#sort select {
+	margin-left: 8px;
+}
+
+#sort p {
+	margin-top: 1px;
+}
+
+.paginator {
+	clear: both;
+	float: right;
+	margin-bottom: -10px;
+}
+
+.paginator p, .paginator ul, .paginator li {
+	float: left;
+}
+
+.paginator ul {
+	list-style: none;
+	margin-left: 5px;
+}
+
+.paginator li {
+	margin-left: 5px;
+}
+
+.paginator li a {
+	color: #898c8d;
+}
+
+.paginator li a:hover, .paginator li a.active {
+	color: #415e7e;
+	text-decoration: underline;
+}
+
+/* ========================== Boxes Styles ========================== */
+.boxes {
+	list-style: none;
+}
+
+.box {
+	float: left;
+	margin-bottom: 8px;
+	margin-right: 10px;
+	width: 235px;
+}
+
+.box.last {
+	margin-right: 0;
+}
+
+.box .social {
+	float: right;
+}
+
+.box .role {
+	clear: left;
+}
+
+.boxes.team h4 {
+	float: left;
+	margin-bottom: 2px;
+}
+
+/* ========================== Social List Styles ========================== */
+.social {
+	list-style: none;
+	margin-bottom: 0;
+}
+
+.social li {
+	float: left;
+}
+
+.social li a {
+	background: url("images/social_icons.jpg") no-repeat top left;
+	display: block;
+	height: 20px;
+	text-indent: -9999px;
+	width: 20px;
+}
+
+.social li a[title="Twitter"] {
+	background-position: -20px 0;
+}
+
+.social li a[title="Facebook"] {
+	background-position: -40px 0;
+}
+
+.social li a[title="Stumble"] {
+	background-position: -60px 0;
+}
+
+/* ========================== Folio Details Styles ========================== */
+.folioDetails {
+	background-color: #c8cfcd;
+	height: 255px;
+	overflow: hidden;
+	width: 725px;
+}
+
+.folioDetails img {
+	margin-bottom: 0;
+}
+
+.folioDetails img.left {
+	margin-right: 9px;
+}
+
+.folioDetails .container {
+	float: right;
+	padding: 9px 9px 0 0;
+	width: 226px;
+}
+
+.folioDetails .container img {
+	margin-bottom: 11px;
+}
+
+.folioDetails p, .folioDetails h6 {
+	clear: left;
+	color: #454b53;
+	font-size: 11px;
+}
+
+.folioDetails p, .folioDetails .button {
+	margin-bottom: 11px;
+}
+
+.folioDetails h6 {
+	font-weight: bold;
+}
+
+.folioDetails .button {
+	float: left;
+}
+
+.folioDetails .social {
+	float: right;
+}
+
+.folioDetails .social a {
+	background-image: url("images/social_icons_folio.jpg");
+}
+
+.folioDetails .phone {
+	background: url("images/phone.jpg") no-repeat left center;
+	padding-left: 20px;
+}
+
+.folioDetails .button {
+	background-image: url("images/button_folio.jpg");
+}
+
+.back {
+	position: absolute;
+	right: 0;
+	top: 45px;
+}
+
+/* ========================== News List Styles ========================== */
+.news {
+	list-style: none;
+	list-style-position: outside;
+}
+
+.news li {
+	margin-bottom: 25px;
+}
+
+.date {
+	font-size: 11px;
+	margin-bottom: 0;
+}
+
+.news h5 {
+	color: #3f454f;
+	font-weight: bold;
+}
+
+.news .imgContainer {
+	background-color: #3f454f;
+	float: left;
+	margin-right: 15px;
+}
+
+.news .imgContainer img {
+	margin: 0;
+}
+
+.news .imgContainer p {
+	color: #FFF;
+	font-size: 11px;
+	margin: -1px 6px 6px 6px;
+	text-align: center;
+}
+
+/* ========================== Content Footer Styles ========================== */
+#contentFooter {
+	clear: both;
+	height: 30px;
+	overflow: hidden;
+	padding-top: 18px;
+}
+
+#contentFooter p {
+	color: #7d93ad;
+	float: left;
+	font-size: 11px;
+}
+
+#contentFooter ul {
+	float: right;
+	list-style: none;
+}
+
+#contentFooter ul li {
+	float: left;
+}
+
+#contentFooter .button {
+	background-image: url("images/button_footer.jpg");
+	line-height: 21px;
+}
+
+#contentFooter .button[title="Follow Us"] {
+	background-image: url("images/button_twitter.jpg");
+	padding-left: 25px;
+}
+
+#contentFooter .rss {
+	background: url("images/button_rss.jpg") no-repeat top left;
+	display: block;
+	height: 17px;
+	text-indent: -9999px;
+	width: 48px;
+}
+
+/* ========================== Footer Styles ========================== */
+#footer {
+	background-color: #30353e;
+	clear: both;
+	margin-top: -45px;
+}
+
+#footer div{
+	margin: 0 auto;
+	padding: 20px 0 27px 45px;
+	text-align: left;
+	width: 980px;
+}
+
+#footer p {
+	color: #6e7582;
+	font-size: 11px;
+}

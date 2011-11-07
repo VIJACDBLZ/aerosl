@@ -1,0 +1,222 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Aerosl | News and Events</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="presentation/styles.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="presentation/datepicker.css" />
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<!-- Cufon Scripts -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Helvetica_LT_Std_300.font.js"></script>
+	<script type="text/javascript">		
+			Cufon.replace('h2');
+			Cufon.replace('h3');
+			Cufon.replace('h4');
+			Cufon.replace('#contentFooter a');
+	  		Cufon.replace('#mainNav li a');
+	</script>
+
+	<!-- jQuery Dropdown Menu -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#languages a').toggle(function () {
+				$('#languages a').css('background-image', 'url("presentation/images/button_arrow_up.jpg")');},
+				function () { $('#languages a').css('background-image', 'url("presentation/images/button_arrow.jpg")');}
+			);
+			$('#languages a').click(function () {
+				$('ul.dropdown').slideToggle('medium');
+			});
+			$('.dropdown li a').click(function () {
+				$('#languages p').html($(this).text()).removeClass().addClass($(this).attr('class'));
+				$('ul.dropdown').slideToggle('medium');
+			});
+		});
+	</script>
+	<!-- jCaption Script -->
+	<script type="text/javascript" src="js/jcaption.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('.news img').jcaption({
+				//Element to wrap the image and caption in
+				wrapperElement: 'div',
+				//Class for wrapper element
+				wrapperClass: 'imgContainer',
+				//Caption Element
+				captionElement: 'p',
+				//Attribute of image to use as caption source
+				imageAttr: 'alt',
+				//Assign a width to the wrapper that matches the image
+				autoWidth: true,
+				//Animate on hover over the image
+				animate: false
+			});
+		});
+	</script>
+	<!-- DatePicker -->
+	<script type="text/javascript" src="js/datepicker.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#calendar').DatePicker({
+				flat: true,
+				date: '2010-01-15',
+				current: '2010-01-15',
+				calendars: 1,
+				starts: 1
+			});
+		});
+	</script>
+	<!-- DD_belatedPNG fix -->
+	<!--[if IE 6]>
+		<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>
+  			DD_belatedPNG.fix('h1 a');
+			DD_belatedPNG.fix('#contentWrapper');
+			DD_belatedPNG.fix('li');
+		</script>
+	<![endif]--> 
+</head>
+
+<body>
+	<!-- BEGIN: wrapper -->
+	<div id="wrapper">
+		<!-- BEGIN: infoColumn -->
+		<div id="infoColumn">
+				<img src="images/logo.png" alt="Aerosl" class="logo" />
+			<!-- BEGIN: languages -->
+			<div id="languages">
+			<p>Where we Operate</p>
+				<a href="">Where we operate</a>
+			</div>
+			<ul class="dropdown">
+				<li><a title="Language"class="India">India</a></li>
+				<li><a title="Language" class="usa">Indonesia</a></li>
+				<li><a title="Language" class="spain">China</a></li>
+				<li><a title="Language" class="france">Taiwan</a></li>
+				<li><a title="Language" class="france">Brunei</a></li>
+				<li><a title="Language" class="france">USA</a></li>
+				<li><a title="Language" class="usa">Singapore</a></li>
+				<li><a title="Language" class="spain">Thailand</a></li>
+				<li><a title="Language" class="france">Malaysia</a></li>
+			</ul>
+			<!-- END: languages -->
+			<h3>Office Location</h3>
+			<img src="images/map.jpg" alt="Image" />
+			<h6>Singapore Office:</h6>
+			<ul>
+				<li>21, Bukit Batok Crescent,</li>
+				<li>#15-79G, WCEGA Tower,</li>
+				<li>Singapore: 658065</li>
+				<li><br /></li>
+				<li>Tel: +(65) 6659 7900</li>
+				<li>Fax: +(65) 6659 7944</li>
+				<li><br /></li>
+				<li>Email:<a href="mailto:sales@aerosl.com">sales@aerosl.com</a></li>
+			</ul>
+			<a href="contact.html" title="Spot Us" class="button">Spot Us</a>
+		</div>
+		<!-- END: infoColumn -->
+		
+		<!-- BEGIN: content -->
+		<div id="content">
+			<!-- BEGIN: contentWrapper -->
+			<div id="contentWrapper">
+				<!-- BEGIN: slideshow -->
+				<div id="slideshow">
+					<object type="application/x-shockwave-flash" data="slideshow/slideshow.swf" width="771" height="240">
+						<param name="movie" value="slideshow/slideshow.swf" />
+					</object>
+				</div>
+				<!-- END: slideshow -->
+				<!-- BEGIN: mainNav -->
+				<ul id="mainNav">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="about.html" title="About Us">About Us</a></li>
+					<li><a href="service.html" title="Services">Services</a></li>
+					<li><a href="quote.html" title="Request a Quote">Request a Quote</a></li>
+					<li><a href="track.html" title="Track my Shipment">Shipment Tracking</a></li>
+					<li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+				</ul>
+				<!-- END: mainNav -->
+				<!-- BEGIN: searchForm -->
+				<form action="#" method="get" class="searchForm">
+					<div>
+						<input type="text" name="s" value="Enter your search here" />
+					</div>
+					<div>
+						<input type="submit" name="submit" class="submit" value="" />
+					</div>
+				</form>
+				<!-- END: searchForm -->
+				<!-- BEGIN: mainContent -->
+				<div id="mainContent">
+					<h2>News &amp; Events</h2>
+					<!-- BEGIN: news -->
+					<ul class="news">
+						<li>
+							<p class="date">18 December 2009</p>
+							<h5>Nam vel elit lectus. Nullam eget magna id dui lobortis dictum. Vestibulum fringilla condimentum velit ut rhoncus.</h5>
+							<img src="images/img_17.jpg" alt="Cras ante est, cursus eget molestie quis, aliquam ornare lorem. Phasellus et convallis" />
+							<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aliquam non dignissim sapien. Cras ante est, cursus eget molestie quis, aliquam ornare lorem. Phasellus et convallis ipsum. Morbi ac molestie risus. Duis aliquet pellentesque odio vitae ultrices. Praesent pulvinar, felis in condimentum facilisis, erat lacus viverra orci, nec porttitor erat orci in eros. Integer elementum pellentesque nibh vitae pretium. Praesent dignissim aliquet faucibus.</p>
+							<p>Proin at tortor nisi. Pellentesque laoreet tincidunt tincidunt. Duis in neque nisl. Nullam lectus turpis, pharetra eu pellentesque faucibus, auctor at turpis. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur et feugiat diam. Pellentesque pretium convallis rhoncus. Quisque lacinia bibendum libero, id posuere lectus tincidunt id. Donec at diam a lacus fringilla iaculis. Phasellus elementum elit id dui sodales ultrices nec sit amet urna. Mauris elit nisi, gravida et fringilla interdum, rhoncus et erat. Sed varius, erat rhoncus molestie interdum, magna eros aliquam magna, et aliquam.</p>
+						</li>
+						<li>
+							<p class="date">08 December 2009</p>
+							<h5>Nullam eget magna id dui lobortis dictum. Vestibulum fringilla condimentum velit ut rhoncus.</h5>
+							<p>Proin at tortor nisi. Pellentesque laoreet tincidunt tincidunt. Duis in neque nisl. Nullam lectus turpis, pharetra eu pellentesque faucibus, auctor at turpis. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur et feugiat diam. Pellentesque pretium convallis rhoncus. Quisque lacinia bibendum libero, id posuere lectus tincidunt id.</p>
+							<p>Donec at diam a lacus fringilla iaculis. Phasellus elementum elit id dui sodales ultrices nec sit amet urna. Mauris elit nisi, gravida et fringilla interdum, rhoncus et erat. Sed varius, erat rhoncus molestie interdum, magna eros aliquam magna, et aliquam</p>
+						</li>
+						<li>
+							<p class="date">01 December 2009</p>
+							<h5>Vestibulum fringilla condimentum velit ut rhoncus.</h5>
+							<p>Donec at diam a lacus fringilla iaculis. Phasellus elementum elit id dui sodales ultrices nec sit amet urna. Mauris elit nisi, gravida et fringilla interdum, rhoncus et erat. Sed varius, erat rhoncus molestie interdum, magna eros aliquam magna, et aliquam Proin at tortor nisi. Pellentesque laoreet tincidunt tincidunt. Duis in neque nisl. Nullam lectus turpis, pharetra eu pellentesque faucibus, auctor at turpis. Suspendisse potenti. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur et feugiat diam.</p>
+						</li>
+					</ul>
+					<!-- END: news -->
+					<!-- BEGIN: paginator -->
+					<div class="paginator">
+						<p>Page:</p>
+						<ul>
+							<li><a href="#" title="Link" class="active">1</a></li>
+							<li><a href="#" title="Link">2</a></li>
+							<li><a href="#" title="Link">3</a></li>
+						</ul>
+					</div>
+					<!-- END: paginator -->
+				</div>
+				<!-- END: mainContent -->
+				<!-- BEGIN: sidebar -->
+				<div id="sidebar">
+					<h3>Agenda</h3>
+					<p id="calendar"></p>
+					<p class="date">30 November 2009</p>
+					<h5>Lorem ipsum dolor sit amet, consectetuer adipiscing</h5>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed ipsum dolor sit ametdiam nonummy. <a href="#" title="Link">[... Read More]</a></p>
+					<h3>Did you know?</h3>
+					<p>Imperdiet dignissim facilisis. Phasellus odio nisi, ullamcorper non consectetur et, egestas tristique diam.   <a href="contact.html" title="Link">[... Contact Us]</a></p>
+				</div>
+				<!-- END: sidebar -->
+				<!-- BEGIN: contentFooter -->
+				<div id="contentFooter">
+					<a href="mission.html">Our Mission</a> | <a href="news.html">News &amp;Events </a>| <a href="terms.html">Terms &amp;Conditions</a>
+					<ul>
+						<li><a href="#" title="Follow Us" class="button">Follow Us</a></li>
+						<li><a href="#" title="RSS" class="rss">RSS</a></li>
+					</ul>
+				</div>
+				<!-- END: contentFooter -->
+			</div>
+			<!-- END: contentWrapper -->
+		</div>
+		<!-- END: content -->
+	</div>
+	<!-- END: wrapper -->
+	<!-- BEGIN: footer -->
+		<div id="footer">
+			<div>
+				<p>&copy; Aero Shipping Lines Pte.&nbsp; Ltd
+			</div>
+		</div>
+		<!-- END: footer -->
+</body>
+</html>

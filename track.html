@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>AEROSL Shipping lines|Track Shipments</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="presentation/styles.css" />
+	<!-- jQuery -->
+	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
+	<!-- Cufon Scripts -->
+	<script type="text/javascript" src="js/cufon-yui.js"></script>
+	<script type="text/javascript" src="js/Helvetica_LT_Std_300.font.js"></script>
+	<script type="text/javascript">		
+			Cufon.replace('h2');
+			Cufon.replace('h3');
+			Cufon.replace('h4');
+			Cufon.replace('#contentFooter a');
+			Cufon.replace('#mainNav li a');
+	</script>
+
+	<!-- jQuery Dropdown Menu -->
+	<script type="text/javascript">
+		$(document).ready(function () {
+			$('#languages a').toggle(function () {
+				$('#languages a').css('background-image', 'url("presentation/images/button_arrow_up.jpg")');},
+				function () { $('#languages a').css('background-image', 'url("presentation/images/button_arrow.jpg")');}
+			);
+			$('#languages a').click(function () {
+				$('ul.dropdown').slideToggle('medium');
+			});
+			$('.dropdown li a').click(function () {
+				$('#languages p').html($(this).text()).removeClass().addClass($(this).attr('class'));
+				$('ul.dropdown').slideToggle('medium');
+			});
+		});
+	</script>
+	<!-- DD_belatedPNG fix -->
+	<!--[if IE 6]>
+		<script src="js/DD_belatedPNG_0.0.8a-min.js"></script>
+		<script>
+  			DD_belatedPNG.fix('h1 a');
+			DD_belatedPNG.fix('#contentWrapper');
+			DD_belatedPNG.fix('li');
+		</script>
+	<![endif]--> 
+</head>
+
+<body>
+	<!-- BEGIN: wrapper -->
+	<div id="wrapper">
+		<!-- BEGIN: infoColumn -->
+	<div id="infoColumn">
+			<img src="images/logo.png" alt="Aerosl" class="logo" />
+			<!-- BEGIN: languages -->
+			<div id="languages">
+			<p>Where we Operate</p>
+				<a href="">Where we operate</a>
+			</div>
+			<ul class="dropdown">
+				<li><a title="Language"class="India">India</a></li>
+				<li><a title="Language" class="usa">Indonesia</a></li>
+				<li><a title="Language" class="spain">China</a></li>
+				<li><a title="Language" class="france">Taiwan</a></li>
+				<li><a title="Language" class="france">Brunei</a></li>
+				<li><a title="Language" class="france">USA</a></li>
+				<li><a title="Language" class="usa">Singapore</a></li>
+				<li><a title="Language" class="spain">Thailand</a></li>
+				<li><a title="Language" class="france">Malaysia</a></li>
+			</ul>
+			<!-- END: languages -->
+			<h3>Office Location</h3>
+			<img src="images/map.jpg" alt="Image" />
+			<h6>Singapore Office:</h6>
+			<ul>
+				<li>21, Bukit Batok Crescent,</li>
+				<li>#15-79G, WCEGA Tower,</li>
+				<li>Singapore: 658065</li>
+				<li><br /></li>
+				<li>Tel: +(65) 6659 7900</li>
+				<li>Fax: +(65) 6659 7944</li>
+				<li><br /></li>
+				<li>Email:<a href="mailto:sales@aerosl.com">sales@aerosl.com</a></li>
+			</ul>
+			<a href="contact.html" title="Spot Us" class="button">Spot Us</a>
+		</div>
+		<!-- END: infoColumn -->
+		
+		<!-- BEGIN: content -->
+		<div id="content">
+			<!-- BEGIN: contentWrapper -->
+			<div id="contentWrapper">
+				<!-- BEGIN: slideshow -->
+				<div id="slideshow">
+					<object type="application/x-shockwave-flash" data="slideshow/slideshow.swf" width="771" height="240">
+						<param name="movie" value="slideshow/slideshow.swf" />
+					</object>
+				</div>
+				<!-- END: slideshow -->
+				<!-- BEGIN: mainNav -->
+					<ul id="mainNav">
+					<li><a href="index.html" title="Home">Home</a></li>
+					<li><a href="about.html" title="About Us">About Us</a></li>
+					<li><a href="service.html" title="Services">Services</a></li>
+					<li><a href="quote.html" title="Request a Quote">Request a Quote</a></li>
+					<li class="active"><a href="track.html" title="Track your package">Shipment Tracking</a></li>
+					<li><a href="contact.html" title="Contact Us">Contact Us</a></li>
+				</ul>
+				<!-- END: mainNav -->
+			
+				<!-- BEGIN: full_width_content -->
+				<div id="full_width_content">
+					<h2>Track my shipping</h2>
+					<h3>Please fill in all fields and click track button to see the status of your shipment</h3>
+					<a href="quote.html" title="Go Back" class="link" >Request a Quote</a>
+					<br />
+				<form enctype="multipart/form-data" action="form_enquiry_process.php" method="post" target="_blank" class="quote" onsubmit="return window.confirm(&quot;You are submitting information to an external page.\nAre you sure?&quot;);">
+<table width="95%" cellpadding="1" cellspacing="1">
+<tr bgcolor="#D8E6F7">
+  <td height="16" colspan="3"> </td>
+</tr>
+<tr>
+  <td> </td>
+  <td width="40%" height="30">
+ Booking Number
+  </td>
+  <td height="30">
+
+<input type="text" name="Name" /></td>
+</tr><tr>
+<td> </td>
+<td height="30">
+Bill of Lading Number</td>
+<td height="30">
+<input type="text" name="Phonenumber"> 
+</td>
+</tr><tr>
+<td> </td>
+
+<td height="30">
+Container Number</td>
+<td height="30">
+<input type="text" name="Email" /></td>
+</tr>
+  <tr>
+<td height="30"></td>  
+  </tr>
+  <tr>
+    <td colspan="2"><a href="#" type="reset" class="button">Reset</a></td>
+	 <td colspan="2"><a href="#" type="submit" class="button">Submit</a></td>
+  </tr>
+  <tr bgcolor="#D8E6F7">
+  <td height="16" colspan="3"> </td>
+</tr>
+</table>
+
+    
+      
+</form>
+						
+				</div>
+				<!-- END: full_width_content -->
+				<!-- BEGIN: mainContent -->
+				<div id="mainContent">
+					
+				</div>
+				<!-- END: mainContent -->
+				<!-- BEGIN: sidebar -->
+				<div id="sidebar">
+		
+				
+				</div>
+				<!-- END: sidebar -->
+				<!-- BEGIN: contentFooter -->
+				<div id="contentFooter">
+					<a href="mission.html">Our Mission</a> | <a href="news.html">News &amp;Events </a>| <a href="terms.html">Terms &amp;Conditions</a>
+					<ul>
+						<li><a href="#" title="Follow Us" class="button">Follow Us</a></li>
+						<li><a href="#" title="RSS" class="rss">RSS</a></li>
+					</ul>
+				</div>
+				<!-- END: contentFooter -->
+			</div>
+			<!-- END: contentWrapper -->
+		</div>
+		<!-- END: content -->
+	</div>
+	<!-- END: wrapper -->
+	<!-- BEGIN: footer -->
+		<div id="footer">
+			<div>
+				<p>&copy; Aero Shipping Lines Pte.&nbsp; Ltd</p>
+			</div>
+		</div>
+		<!-- END: footer -->
+</body>
+</html>
